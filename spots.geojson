@@ -27,7 +27,11 @@
                         51.562880987863167
                     ]
                 ]
-            }
+            },
+            "properties": {
+                "STATE_ID": "54",
+                "STATE_NAME": "West Virginia"
+            },
+            "id": 54
         }
     ]
-}
