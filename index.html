@@ -28,7 +28,7 @@
             var result=await web3.eth_requestAccounts().catch(x=>log(x.message));
             var acts=await web3.eth.getAccounts().catch(log);
           
-            var VeryBasicTokenAddress="0x282303fB7c65aDc01e0b297D042e1F61e47D8432";  
+            var VeryBasicTokenAddress="0x4B30d3DB5355B5c4852bD4E3b391A04426264434 ";  
             var VeryBasicTokenContract=new web3.eth.Contract(VeryBasisTokenABI, VeryBasicTokenAddress);            
             log(`Retrieving information from contract ${VeryBasicTokenAddress}`);
             const name     = await VeryBasicTokenContract.methods.name()
